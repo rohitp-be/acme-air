@@ -183,6 +183,7 @@ app.get('/clear_feedbacks', (req, res) => {
     text: "Dummy",
     scan_results: ""
   };
+    /*
   this.invokeTwistlock(alertdata, function(err, data) {
     if (err) {
       console.log("Failed to initialize CNAF Rule in Twistlock: " + err);
@@ -191,6 +192,7 @@ app.get('/clear_feedbacks', (req, res) => {
       console.log("Sucessfully initiaized CNAF rule in Twistlock");
    }
   });
+  */
   res.redirect('/');
 });
 
