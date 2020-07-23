@@ -186,18 +186,14 @@ app.get('/clear_feedbacks', (req, res) => {
 
   /*this.invokeTwistlock(alertdata, function(err, data) {
 
-    /*
-  this.invokeTwistlock(alertdata, function(err, data) {
->>>>>>> cd0f539b9d959c6122f4dd26cb8620d4380e950a
     if (err) {
       console.log("Failed to initialize CNAF Rule in Twistlock: " + err);
     }
     else {
       console.log("Sucessfully initiaized CNAF rule in Twistlock");
    }
-<<<<<<< HEAD
+
   });*/
-  //});
   res.redirect('/');
 });
 
